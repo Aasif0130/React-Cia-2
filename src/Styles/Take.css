@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 15px 7px #fa4802;
+    
+    /* box-shadow: 13px 15px 5px #bdb7b7 inset; */
+}
+
+.box-contents{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.h1{
+    position:absolute;
+    top:20%;
+    left:50%;
+    margin-right: -50%;
+    transform: translateX(-50%)
+}
